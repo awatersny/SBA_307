@@ -41,9 +41,9 @@ body {
   flex-grow: 1;
 }
 
-.info-narrow > h2 {
-  padding: 10px;
+h2 {
   border-bottom: 2px solid black;
+  padding: 10px;
 }
 
 .dark > h2 {
@@ -57,4 +57,10 @@ body {
 .dark {
   background-color: black;
   color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+  .info-container {
+    flex-wrap: wrap;
+  }
 }
