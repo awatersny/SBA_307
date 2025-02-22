@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -32,14 +33,25 @@ body {
 
 .info-container {
   display: flex;
-}
-
-.full-row {
+  /* flex-wrap: wrap; */
   width: 100%;
 }
 
-.section {
+.info-narrow {
+  flex-grow: 1;
+}
+
+.info-narrow > h2 {
   padding: 10px;
+  border-bottom: 2px solid black;
+}
+
+.dark > h2 {
+  border-bottom: 2px solid white;
+}
+
+.section {
+  padding: 1%;
 }
 
 .dark {
