@@ -41,3 +41,8 @@ body {
 .section {
   padding: 10px;
 }
+
+.dark {
+  background-color: black;
+  color: white;
+}
