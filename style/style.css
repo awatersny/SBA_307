@@ -14,12 +14,28 @@ body {
   display: flex;
   list-style: none;
   align-items: center;
-  background-color: black;
-  color: white;
+  background-color: #003049;
+  color: #EAE2B7;
 }
 
 .nav-element {
   margin: 0 1%
+}
+
+a:visited {
+  color: #EAE2B7;
+}
+
+.nav-element:hover {
+  color: #FCBF49;
+}
+
+a:hover {
+  color: #FCBF49;
+}
+
+a {
+  text-decoration: none;
 }
 
 #register {
@@ -42,12 +58,12 @@ body {
 }
 
 h2 {
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #003049;
   padding: 10px;
 }
 
 .dark > h2 {
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #EAE2B7;
 }
 
 .section {
@@ -55,8 +71,8 @@ h2 {
 }
 
 .dark {
-  background-color: black;
-  color: white;
+  background-color: #003049;
+  color: #EAE2B7;
 }
 
 @media only screen and (max-width: 1000px) {
