@@ -34,11 +34,11 @@
       <div class="main">
         <form class="login-form" action="index.html">
           <div class="field">
-            <label for="username">Username</label>
+            <label class="text-label" for="username">Username</label>
             <input name="username" id="username" type="text" required>
           </div>
           <div class="field">
-            <label for="password">Password</label>
+            <label class="text-label" for="password">Password</label>
             <input name="password" id="password" type="password" required>
           </div>
           <div>
@@ -64,13 +64,17 @@
       height: 250px;
       flex-direction: column;
       justify-content: space-between;
-      padding: 2%;
+      padding: 40px;
       border: 10px outset #EAE2B7;
       background-color: #003049;
       color: #EAE2B7;
       margin-top: 10vh;
       transition-property: background-color;
       transition-duration: 1s;
+    }
+
+    .text-label {
+      margin-right: 5%;
     }
 
     #button {
