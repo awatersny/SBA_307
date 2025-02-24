@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/style.css">
+  <title>Dashboard</title>
+</head>
+  <body>
+    <div id="background"></div>
+    <div class="container">
+      <ul class="navbar">
+        <li class="nav-element">
+          <a href="index.html">
+            <h1>
+              Main Headline
+            </h1>
+          </a>
+        </li>
+        <li class="nav-element">
+          <h3>Nav1</h3>
+        </li>
+        <li class="nav-element">
+          <h3>Nav1</h3>
+        </li>
+        <li id="first-right" class="nav-element">
+          <a href="index.html">
+            <h3>
+              Logout
+            </h3>
+          </a>
+        </li>
+      </ul>
+      <div class="main">
+        <table class="dashboard-section">
+          <thead>
+            <tr>
+              <th>derp</th>
+              <th>derp</th>
+              <th>derp</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>derp</td>
+              <td>derp</td>
+              <td>derp</td>
+            </tr>
+            <tr>
+              <td>derp</td>
+              <td>derp</td>
+              <td>derp</td>
+            </tr>
+            <tr>
+              <td>derp</td>
+              <td>derp</td>
+              <td>derp</td>
+            </tr>
+            <tr>
+              <td>derp</td>
+              <td>derp</td>
+              <td>derp</td>
+            </tr>
+            <tr>
+              <td>derp</td>
+              <td>derp</td>
+              <td>derp</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <form class="dashboard-section" action="index.html">
+          <div class="field">
+            <label class="text-label" for="username">Username</label>
+            <input name="username" id="username" type="text" required>
+          </div>
+          <div class="field">
+            <label class="text-label" for="password">Password</label>
+            <input name="password" id="password" type="password" required>
+          </div>
+          <div>
+            <input type="checkbox" name="noRobo" id="noRobo" required>
+            <label for="noRobo">I am not a robot.&nbsp Trust me...I am friendly</label>
+          </div>
+          <button id="button">Login</button>
+        </form>
+      </div>
+    </div>
+  </body>
+
+  <style>
+    .main {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .dashboard-section {
+      display: flex;
+      height: 250px;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 40px;
+      border: 10px outset #EAE2B7;
+      background-color: #003049;
+      color: #EAE2B7;
+      margin-top: 10vh;
+      transition-property: background-color;
+      transition-duration: 1s;
+    }
+
+    .text-label {
+      margin-right: 5%;
+    }
+
+    #button {
+      width: 100px;
+      padding: 5px;
+      border: 5px outset #EAE2B7;
+      transition-property: background-color;
+      transition-duration: 1s;
+    }
+
+    #button:hover {
+      background-color: #F77F00;
+    }
+
+    #button:active {
+      border: 5px inset #EAE2B7;
+    }
+
+  </style>
+</html>
