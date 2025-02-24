@@ -35,53 +35,69 @@
         <table class="dashboard-section">
           <thead>
             <tr>
-              <th>derp</th>
-              <th>derp</th>
-              <th>derp</th>
+              
+              <th>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</th>
+              <th>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</th>
+              <th>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>derp</td>
-              <td>derp</td>
-              <td>derp</td>
+              <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</td>
+              <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</td>
+              <td>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              </td>
             </tr>
             <tr>
-              <td>derp</td>
-              <td>derp</td>
-              <td>derp</td>
+              <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</td>
+              <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</td>
+              <td>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              </td>
             </tr>
             <tr>
-              <td>derp</td>
-              <td>derp</td>
-              <td>derp</td>
+              <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</td>
+              <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</td>
+              <td>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              </td>
             </tr>
             <tr>
-              <td>derp</td>
-              <td>derp</td>
-              <td>derp</td>
+              <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</td>
+              <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</td>
+              <td>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              </td>
             </tr>
             <tr>
-              <td>derp</td>
-              <td>derp</td>
-              <td>derp</td>
+              <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</td>
+              <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</td>
+              <td>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              </td>
             </tr>
           </tbody>
         </table>
 
         <form class="dashboard-section" action="index.html">
           <div class="field">
-            <label class="text-label" for="username">Username</label>
-            <input name="username" id="username" type="text" required>
+            <label class="text-label" for="setting1">Setting 1</label>
+            <input type="range" name="setting1" id="setting1">
           </div>
           <div class="field">
-            <label class="text-label" for="password">Password</label>
-            <input name="password" id="password" type="password" required>
+            <label class="text-label" for="setting1">Setting 2</label>
+            <input type="range" name="setting2" id="setting2">
           </div>
           <div>
-            <input type="checkbox" name="noRobo" id="noRobo" required>
-            <label for="noRobo">I am not a robot.&nbsp Trust me...I am friendly</label>
+            <label class="text-label" for="setting1">Setting 3</label>
+            <input type="range" name="setting3" id="setting4">
           </div>
+          <select name="options" id="options">
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+          </select>
           <button id="button">Update</button>
         </form>
       </div>
@@ -93,12 +109,13 @@
       display: flex;
       align-items: center;
       justify-content: space-around;
+      flex-wrap: wrap;
     }
 
     .dashboard-section {
       display: flex;
-      height: 250px;
-      width: 40%;
+      width: 43%;
+      height: 80vh;
       flex-direction: column;
       justify-content: space-between;
       padding: 40px;
@@ -106,7 +123,7 @@
       background-color: #003049;
       color: #EAE2B7;
       margin-top: 10vh;
-      transition-duration: 2s;
+      transition-duration: 1.5s;
     }
 
     .dashboard-section:hover {
@@ -137,6 +154,5 @@
   </style>
 </html>
 
-<!-- TODO Add one more animation -->
 <!-- TODO Add a dropdown menu -->
 <!-- TODO Add an external static image -->
