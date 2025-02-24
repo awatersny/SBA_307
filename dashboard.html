@@ -32,47 +32,50 @@
         </li>
       </ul>
       <div class="main">
-        <table class="dashboard-section">
-          <thead>
-            <caption>
-              <h2>Table</h2>
-            </caption>
-          </thead>
-          <tbody>
-            <tr class="light">
-              <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</td>
-              <td>
-                <img src="assets/sunset.jpg" width="100%" alt="">
-              </td>
-            </tr class="light">
-            <tr class="light">
-              <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</td>
-              <td>
-                <img src="assets/sunset.jpg" width="100%" alt="">
-              </td>
-            </tr>
-            <tr class="light">
-              <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</td>
-              <td>
-                <img src="assets/sunset.jpg" width="100%" alt="">
-              </td>
-            </tr>
-          </tbody>
-        </table>
+        <div class="dashboard-section">
+          <table>
+            <thead>
+              <caption>
+                <h2>Table</h2>
+              </caption>
+            </thead>
+            <tbody>
+              <tr class="light">
+                <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</td>
+                <td>
+                  <img src="assets/sunset.jpg" width="100%" alt="">
+                </td>
+              </tr class="light">
+              <tr class="light">
+                <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</td>
+                <td>
+                  <img src="assets/sunset.jpg" width="100%" alt="">
+                </td>
+              </tr>
+              <tr class="light">
+                <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</td>
+                <td>
+                  <img src="assets/sunset.jpg" width="100%" alt="">
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          
+        </div>
 
         <form class="dashboard-section" action="dashboard.html">
           <h2>Settings</h2>
           <div class="field">
-            <label class="text-label" for="setting1">Setting 1</label>
+            <label class="slider-label" for="setting1">Setting 1</label>
             <input type="range" name="setting1" id="setting1">
           </div>
           <div class="field">
-            <label class="text-label" for="setting1">Setting 2</label>
+            <label class="slider-label" for="setting2">Setting 2</label>
             <input type="range" name="setting2" id="setting2">
           </div>
           <div>
-            <label class="text-label" for="setting1">Setting 3</label>
-            <input type="range" name="setting3" id="setting4">
+            <label class="slider-label" for="setting3">Setting 3</label>
+            <input type="range" name="setting3" id="setting3">
           </div>
           <select name="options" id="options">
             <option value="option1">Option 1</option>
@@ -87,7 +90,12 @@
 
   <style>
     table {
-      display: flex;
+      margin-bottom: 100px;
+      border-spacing: 0;
+    }
+
+    caption {
+      text-align: left;
     }
 
     td {
@@ -108,7 +116,7 @@
 
     .dashboard-section {
       display: flex;
-      width: 43%;
+      width: 35%;
       height: 100vh;
       flex-direction: column;
       justify-content: space-between;
@@ -125,8 +133,12 @@
       transform: translateY(-10px);
     }
 
-    .text-label {
+    .text-label, .slider-label{
       margin-right: 5%;
+    }
+
+    .slider-label, #options {
+      font-size: 16pt;
     }
 
     #button {
