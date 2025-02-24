@@ -37,52 +37,30 @@
             <caption>
               <h2>Table</h2>
             </caption>
-            <tr>
-              <th>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</th>
-              <th>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</th>
-              <th>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</th>
-            </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</td>
+            <tr class="light">
               <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</td>
               <td>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                <img src="assets/sunset.jpg" width="100%" alt="">
+              </td>
+            </tr class="light">
+            <tr class="light">
+              <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</td>
+              <td>
+                <img src="assets/sunset.jpg" width="100%" alt="">
               </td>
             </tr>
-            <tr>
-              <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</td>
-              <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</td>
-              <td>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              </td>
-            </tr>
-            <tr>
-              <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</td>
+            <tr class="light">
               <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</td>
               <td>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              </td>
-            </tr>
-            <tr>
-              <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</td>
-              <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</td>
-              <td>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              </td>
-            </tr>
-            <tr>
-              <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</td>
-              <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</td>
-              <td>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                <img src="assets/sunset.jpg" width="100%" alt="">
               </td>
             </tr>
           </tbody>
         </table>
 
-        <form class="dashboard-section" action="index.html">
+        <form class="dashboard-section" action="dashboard.html">
           <h2>Settings</h2>
           <div class="field">
             <label class="text-label" for="setting1">Setting 1</label>
@@ -108,9 +86,22 @@
   </body>
 
   <style>
+    table {
+      display: flex;
+    }
+
+    td {
+      border: 5px inset #D62828;
+      padding: 1%;
+    }
+
+    h2 {
+      margin: 0;
+    }
+
     .main {
       display: flex;
-      align-items: center;
+      /* align-items: center; */
       justify-content: space-around;
       flex-wrap: wrap;
     }
@@ -118,10 +109,10 @@
     .dashboard-section {
       display: flex;
       width: 43%;
-      height: 80vh;
+      height: 100vh;
       flex-direction: column;
       justify-content: space-between;
-      padding: 40px;
+      padding: 20px 5%;
       border: 10px outset #EAE2B7;
       background-color: #003049;
       color: #EAE2B7;
