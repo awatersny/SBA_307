@@ -10,11 +10,11 @@
     <div class="container">
       <ul class="navbar">
         <li class="nav-element">
-          <h1>
-            <a href="index.html">
+          <a href="index.html">
+            <h1>
               Main Headline
-            </a>
-          </h1>
+            </h1>
+          </a>
         </li>
         <li class="nav-element">
           <h3>Nav1</h3>
@@ -23,12 +23,47 @@
           <h3>Nav1</h3>
         </li>
         <li id="first-right" class="nav-element">
-          <h3>
-            <a href="index.html">
+          <a href="index.html">
+            <h3>
               Previous Page
-            </a>
-          </h3>
+            </h3>
+          </a>
+        </li>
       </ul>
+      <div class="main">
+        <form class="login-form" action="">
+          <div class="field">
+            <label for="username">Username</label>
+            <input name="username" type="text">
+          </div>
+          <div class="field">
+            <label for="password">Password</label>
+            <input name="password" type="text">
+          </div>
+          <button>Submit</button>
+        </form>
+      </div>
     </div>
   </body>
+
+  <style>
+    .main {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .login-form {
+      display: flex;
+      width: 50%;
+      height: 20vh;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 2%;
+      background-color: #003049;
+      color: #EAE2B7;
+      margin-top: 10vh;
+    }
+
+  </style>
 </html>

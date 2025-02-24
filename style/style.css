@@ -16,6 +16,7 @@ body {
   align-items: center;
   background-color: #003049;
   color: #EAE2B7;
+  flex-wrap: wrap;
 }
 
 .nav-element {
@@ -30,11 +31,11 @@ a:visited {
   color: #FCBF49;
 }
 
-a:hover {
+.nav-element > a:hover {
   color: #FCBF49;
 }
 
-a {
+.nav-element > a {
   text-decoration: none;
 }
 
