@@ -92,12 +92,13 @@
     .main {
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: space-around;
     }
 
     .dashboard-section {
       display: flex;
       height: 250px;
+      width: 40%;
       flex-direction: column;
       justify-content: space-between;
       padding: 40px;
@@ -105,8 +106,12 @@
       background-color: #003049;
       color: #EAE2B7;
       margin-top: 10vh;
-      transition-property: background-color;
+      transition-property: box-shadow;
       transition-duration: 1s;
+    }
+
+    .dashboard-section:hover {
+      box-shadow: 10px 10px 11px #000000;
     }
 
     .text-label {
@@ -131,3 +136,7 @@
 
   </style>
 </html>
+
+<!-- TODO Add one more animation -->
+<!-- TODO Add a dropdown menu -->
+<!-- TODO Add an external static image -->
