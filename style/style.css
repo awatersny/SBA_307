@@ -4,7 +4,7 @@ body {
 }
 
 .background {
-  background: linear-gradient(#D62828,#F77F00 ,#FCBF49);
+  background: linear-gradient(#FCBF49 ,#F77F00 ,#D62828, #3d348b);
   height: 100vh;
   position: fixed;
   width: 100%;
