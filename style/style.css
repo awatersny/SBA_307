@@ -98,4 +98,10 @@ h2 {
   .info-container {
     flex-wrap: wrap;
   }
+  .navbar {
+    flex-direction: column;
+  }
+  #first-right {
+    margin: 0;
+  }
 }
